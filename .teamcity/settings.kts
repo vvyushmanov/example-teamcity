@@ -36,6 +36,8 @@ project {
 object Build : BuildType({
     name = "Build"
 
+    artifactRules = "**/* => artifacts"
+
     vcs {
         root(DslContext.settingsRoot)
     }
