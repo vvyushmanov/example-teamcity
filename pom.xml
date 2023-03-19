@@ -15,7 +15,7 @@
 	<distributionManagement>
 		<repository>
 				<id>nexus</id>
-				<url>http://51.250.13.64:8081/repository/maven-releases</url>
+				<url>http://51.250.95.93:8081/repository/maven-releases</url>
 		</repository>
 	</distributionManagement>
 	<dependencies>
@@ -42,7 +42,7 @@
 						<configuration>
 							<transformers>
 								<transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-									<mainClass>plaindoll.HelloPlayer</mainClass>
+									<mainClass>plainDoll.HelloPlayer</mainClass>
 								</transformer>
 							</transformers>
 						</configuration>

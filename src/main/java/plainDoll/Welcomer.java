@@ -1,4 +1,4 @@
-package plaindoll;
+package plainDoll;
 
 public class Welcomer{
 	public String sayWelcome() {

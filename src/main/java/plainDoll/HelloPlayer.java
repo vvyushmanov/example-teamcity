@@ -1,4 +1,4 @@
-package plaindoll;
+package plainDoll;
 
 public class HelloPlayer{
 	public static void main(String[] args) {
